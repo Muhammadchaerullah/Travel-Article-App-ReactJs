@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+    @apply bg-slate-100
+}
+
 :disabled{
     opacity: 0.50;
     cursor: not-allowed;
